@@ -6,7 +6,7 @@ provider "aws" {
 
 
 
-resource "aws_instance" "web" {
+resource "aws_instance" "hdp" {
   ami           = "ami-9887c6e7"
   instance_type = "m4.2xlarge"
   key_name = "TERRAJENK"
